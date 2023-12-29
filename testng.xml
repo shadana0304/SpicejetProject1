@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+<listeners>
+<listener class-name="utility.Listener"></listener>
+</listeners>
+  <parameter name="url" value="https://www.spicejet.com/"></parameter>
+  <parameter name="browser" value="chrome"></parameter> 
+  <test thread-count="3" name="Test"> 
+    <classes>
+      <class name="testcase.TC001_ApplicationHomePage"/>
+      <class name="testcase.TC003_LogInWithEmail"/>
+      <class name="testcase.TC004_LogInWithPhoneNo"/>
+       <class name="testcase.TC005_RoundTrip"/>
+      <class name="testcase.TC006_OneWayTrip"/>
+      <class name="testcase.TC007_CheckIn"/>
+      <class name="testcase.TC008_FlightStatus"/>
+      <class name="testcase.TC009_ManageBooking"/>
+      <class name="testcase.TC011_ForgetPassWord"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="3" name="EdgeTest">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>      
+      <class name="testcase.TC002_SignUp"/> 
+       <class name="testcase.TC010_LogOut"/> 
+       <class name="testcase.TC012_LogInwithInvalidDetails"/>
+       <class name="testcase.TC013_SignupWithInvalidDetails"/>                                          
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T14:18:19 IST" name="Suite" finished-at="2023-12-29T14:33:54 IST" duration-ms="934877">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T14:18:19 IST" name="Test" finished-at="2023-12-29T14:25:44 IST" duration-ms="445137">
+      <class name="testcase.TC009_ManageBooking">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC009_ManageBooking@53f6fd09]" started-at="2023-12-29T14:24:52 IST" name="browserLaunch" finished-at="2023-12-29T14:25:13 IST" duration-ms="21691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="manageBookingTest()[pri:0, instance:testcase.TC009_ManageBooking@53f6fd09]" started-at="2023-12-29T14:25:13 IST" name="manageBookingTest" finished-at="2023-12-29T14:25:20 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBookingTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC009_ManageBooking@53f6fd09]" started-at="2023-12-29T14:25:20 IST" name="closeBrowser" finished-at="2023-12-29T14:25:21 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC009_ManageBooking -->
+      <class name="testcase.TC005_RoundTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC005_RoundTrip@31c7528f]" started-at="2023-12-29T14:18:19 IST" name="setup" finished-at="2023-12-29T14:18:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC005_RoundTrip@31c7528f]" started-at="2023-12-29T14:22:44 IST" name="browserLaunch" finished-at="2023-12-29T14:23:11 IST" duration-ms="26814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="roundTripTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC005_RoundTrip@31c7528f]" started-at="2023-12-29T14:23:11 IST" name="roundTripTest" data-provider="getData" finished-at="2023-12-29T14:23:22 IST" duration-ms="11216" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saranya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ragu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9551903606]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saranya3606@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hosur]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4567345656789870]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SaranyaRagu]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[678]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Invalid Card Details]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (495, 479). Other element would receive the click: <div class="css-1dbjc4n r-1awozwy r-1pi2tsx r-1777fci r-13qz1uu">...</div>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30337242aa1d7ab0f04da665d404c795, clickElement {id=0B3E53EAF320D7BBD07A93E9793B562C_element_340}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\X240\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (30337242aa1d7ab0f04da665d404c795)] -> xpath: //div[@data-testid='home-page-flight-cta']]
+Session ID: 30337242aa1d7ab0f04da665d404c795]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (495, 479). Other element would receive the click: <div class="css-1dbjc4n r-1awozwy r-1pi2tsx r-1777fci r-13qz1uu">...</div>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30337242aa1d7ab0f04da665d404c795, clickElement {id=0B3E53EAF320D7BBD07A93E9793B562C_element_340}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\X240\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (30337242aa1d7ab0f04da665d404c795)] -> xpath: //div[@data-testid='home-page-flight-cta']]
+Session ID: 30337242aa1d7ab0f04da665d404c795
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at utility.BaseUtility.click(BaseUtility.java:70)
+at pages.FlightBookingPage.clickFlightSearch(FlightBookingPage.java:210)
+at testcase.TC005_RoundTrip.roundTripTest(TC005_RoundTrip.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTripTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC005_RoundTrip@31c7528f]" started-at="2023-12-29T14:23:23 IST" name="closeBrowser" finished-at="2023-12-29T14:23:29 IST" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC005_RoundTrip -->
+      <class name="testcase.TC008_FlightStatus">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC008_FlightStatus@2f62ea70]" started-at="2023-12-29T14:24:24 IST" name="browserLaunch" finished-at="2023-12-29T14:24:44 IST" duration-ms="20983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="flightStatusTest()[pri:0, instance:testcase.TC008_FlightStatus@2f62ea70]" started-at="2023-12-29T14:24:44 IST" name="flightStatusTest" finished-at="2023-12-29T14:24:51 IST" duration-ms="6429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightStatusTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC008_FlightStatus@2f62ea70]" started-at="2023-12-29T14:24:51 IST" name="closeBrowser" finished-at="2023-12-29T14:24:52 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC008_FlightStatus -->
+      <class name="testcase.TC004_LogInWithPhoneNo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC004_LogInWithPhoneNo@64c63c79]" started-at="2023-12-29T14:18:19 IST" name="setup" finished-at="2023-12-29T14:18:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC004_LogInWithPhoneNo@64c63c79]" started-at="2023-12-29T14:21:50 IST" name="browserLaunch" finished-at="2023-12-29T14:22:26 IST" duration-ms="35631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="logInTestWithPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC004_LogInWithPhoneNo@64c63c79]" started-at="2023-12-29T14:22:26 IST" name="logInTestWithPhone" data-provider="getData" finished-at="2023-12-29T14:22:39 IST" duration-ms="12622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9551903606]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guvi@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Saranya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTestWithPhone -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC004_LogInWithPhoneNo@64c63c79]" started-at="2023-12-29T14:22:39 IST" name="closeBrowser" finished-at="2023-12-29T14:22:43 IST" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC004_LogInWithPhoneNo -->
+      <class name="testcase.TC007_CheckIn">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC007_CheckIn@7a1234bf]" started-at="2023-12-29T14:24:01 IST" name="browserLaunch" finished-at="2023-12-29T14:24:22 IST" duration-ms="20166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="checkInTest()[pri:0, instance:testcase.TC007_CheckIn@7a1234bf]" started-at="2023-12-29T14:24:22 IST" name="checkInTest" finished-at="2023-12-29T14:24:23 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC007_CheckIn@7a1234bf]" started-at="2023-12-29T14:24:23 IST" name="closeBrowser" finished-at="2023-12-29T14:24:24 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC007_CheckIn -->
+      <class name="testcase.TC011_ForgetPassWord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC011_ForgetPassWord@6bffbc6d]" started-at="2023-12-29T14:18:19 IST" name="setup" finished-at="2023-12-29T14:18:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC011_ForgetPassWord@6bffbc6d]" started-at="2023-12-29T14:25:21 IST" name="browserLaunch" finished-at="2023-12-29T14:25:40 IST" duration-ms="19039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="forgetPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC011_ForgetPassWord@6bffbc6d]" started-at="2023-12-29T14:25:40 IST" name="forgetPasswordTest" data-provider="getData" finished-at="2023-12-29T14:25:43 IST" duration-ms="2929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9551903606]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please enter your mobile number to reset your password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC011_ForgetPassWord@6bffbc6d]" started-at="2023-12-29T14:25:43 IST" name="closeBrowser" finished-at="2023-12-29T14:25:44 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC011_ForgetPassWord -->
+      <class name="testcase.TC001_ApplicationHomePage">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC001_ApplicationHomePage@35432107]" started-at="2023-12-29T14:18:19 IST" name="browserLaunch" finished-at="2023-12-29T14:20:00 IST" duration-ms="100803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="homePage()[pri:0, instance:testcase.TC001_ApplicationHomePage@35432107]" started-at="2023-12-29T14:20:00 IST" name="homePage" finished-at="2023-12-29T14:20:16 IST" duration-ms="16227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC001_ApplicationHomePage@35432107]" started-at="2023-12-29T14:20:16 IST" name="closeBrowser" finished-at="2023-12-29T14:20:22 IST" duration-ms="5931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC001_ApplicationHomePage -->
+      <class name="testcase.TC003_LogInWithEmail">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC003_LogInWithEmail@27eedb64]" started-at="2023-12-29T14:18:19 IST" name="setup" finished-at="2023-12-29T14:18:19 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC003_LogInWithEmail@27eedb64]" started-at="2023-12-29T14:20:26 IST" name="browserLaunch" finished-at="2023-12-29T14:20:57 IST" duration-ms="30266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="logInTestWithEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC003_LogInWithEmail@27eedb64]" started-at="2023-12-29T14:20:57 IST" name="logInTestWithEmail" data-provider="getData" finished-at="2023-12-29T14:21:48 IST" duration-ms="51207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saranya3606@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guvi@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Saranya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTestWithEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC003_LogInWithEmail@27eedb64]" started-at="2023-12-29T14:21:48 IST" name="closeBrowser" finished-at="2023-12-29T14:21:50 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC003_LogInWithEmail -->
+      <class name="testcase.TC006_OneWayTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC006_OneWayTrip@2b76ff4e]" started-at="2023-12-29T14:18:19 IST" name="setup" finished-at="2023-12-29T14:18:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC006_OneWayTrip@2b76ff4e]" started-at="2023-12-29T14:23:29 IST" name="browserLaunch" finished-at="2023-12-29T14:23:52 IST" duration-ms="22996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="oneWayTripTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC006_OneWayTrip@2b76ff4e]" started-at="2023-12-29T14:23:52 IST" name="oneWayTripTest" data-provider="getData" finished-at="2023-12-29T14:24:01 IST" duration-ms="8814" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saranya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ragu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9551903606]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saranya3606@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hosur]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Shadana]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ragu]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA['4567345656789870]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Saranya]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[678]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Invalid Card Details]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="css-76zvg2 css-bfa6kz r-homxoj r-ubezar" dir="auto" style="font-family: inherit;">...</div> is not clickable at point (141, 341). Other element would receive the click: <div class="css-76zvg2 r-homxoj r-adyw6z r-1kfrs79" dir="auto" style="font-family: inherit;">...</div>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7018cccd4810860c20c90df646753eb9, clickElement {id=299C573816D86CE9125E1DE8C324FB11_element_323}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\X240\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49946/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7018cccd4810860c20c90df646753eb9)] -> xpath: //div[text()='1 Adult']]
+Session ID: 7018cccd4810860c20c90df646753eb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-76zvg2 css-bfa6kz r-homxoj r-ubezar" dir="auto" style="font-family: inherit;">...</div> is not clickable at point (141, 341). Other element would receive the click: <div class="css-76zvg2 r-homxoj r-adyw6z r-1kfrs79" dir="auto" style="font-family: inherit;">...</div>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7018cccd4810860c20c90df646753eb9, clickElement {id=299C573816D86CE9125E1DE8C324FB11_element_323}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\X240\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49946/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7018cccd4810860c20c90df646753eb9)] -> xpath: //div[text()='1 Adult']]
+Session ID: 7018cccd4810860c20c90df646753eb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at utility.BaseUtility.click(BaseUtility.java:70)
+at pages.FlightBookingPage.clickPassengers(FlightBookingPage.java:198)
+at testcase.TC006_OneWayTrip.oneWayTripTest(TC006_OneWayTrip.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTripTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC006_OneWayTrip@2b76ff4e]" started-at="2023-12-29T14:24:01 IST" name="closeBrowser" finished-at="2023-12-29T14:24:01 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC006_OneWayTrip -->
+    </test> <!-- Test -->
+    <test started-at="2023-12-29T14:25:46 IST" name="EdgeTest" finished-at="2023-12-29T14:33:54 IST" duration-ms="487635">
+      <class name="testcase.TC002_SignUp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC002_SignUp@344f4dea]" started-at="2023-12-29T14:25:46 IST" name="setup" finished-at="2023-12-29T14:25:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC002_SignUp@344f4dea]" started-at="2023-12-29T14:25:46 IST" name="browserLaunch" finished-at="2023-12-29T14:26:50 IST" duration-ms="63550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC002_SignUp@344f4dea]" started-at="2023-12-29T14:26:50 IST" name="signUpTest" data-provider="getData" finished-at="2023-12-29T14:29:11 IST" duration-ms="141108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saranya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ragu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2004]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9551903606]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[computer@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Flight@0304]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Flight@0304]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC002_SignUp@344f4dea]" started-at="2023-12-29T14:29:11 IST" name="closeBrowser" finished-at="2023-12-29T14:29:13 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC002_SignUp -->
+      <class name="testcase.TC013_SignupWithInvalidDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC013_SignupWithInvalidDetails@648c94da]" started-at="2023-12-29T14:25:46 IST" name="setup" finished-at="2023-12-29T14:25:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC013_SignupWithInvalidDetails@648c94da]" started-at="2023-12-29T14:32:35 IST" name="browserLaunch" finished-at="2023-12-29T14:33:15 IST" duration-ms="40127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invalid_signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC013_SignupWithInvalidDetails@648c94da]" started-at="2023-12-29T14:33:15 IST" name="invalid_signup" data-provider="getData" finished-at="2023-12-29T14:33:54 IST" duration-ms="38773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ragu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2004]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Guvi@1234]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Guvi@1234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill all mandatory fields marked with an '*' to proceed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_signup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC013_SignupWithInvalidDetails@648c94da]" started-at="2023-12-29T14:33:54 IST" name="closeBrowser" finished-at="2023-12-29T14:33:54 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC013_SignupWithInvalidDetails -->
+      <class name="testcase.TC012_LogInwithInvalidDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC012_LogInwithInvalidDetails@5e4bd84a]" started-at="2023-12-29T14:25:46 IST" name="setup" finished-at="2023-12-29T14:25:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC012_LogInwithInvalidDetails@5e4bd84a]" started-at="2023-12-29T14:31:40 IST" name="browserLaunch" finished-at="2023-12-29T14:32:17 IST" duration-ms="37229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invlaidLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC012_LogInwithInvalidDetails@5e4bd84a]" started-at="2023-12-29T14:32:17 IST" name="invlaidLoginTest" data-provider="getData" finished-at="2023-12-29T14:32:26 IST" duration-ms="8775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saranya3606@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Username/Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invlaidLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC012_LogInwithInvalidDetails@5e4bd84a]" started-at="2023-12-29T14:32:26 IST" name="closeBrowser" finished-at="2023-12-29T14:32:34 IST" duration-ms="8440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC012_LogInwithInvalidDetails -->
+      <class name="testcase.TC010_LogOut">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.TC010_LogOut@1b7c473a]" started-at="2023-12-29T14:25:46 IST" name="setup" finished-at="2023-12-29T14:25:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC010_LogOut@1b7c473a]" started-at="2023-12-29T14:29:16 IST" name="browserLaunch" finished-at="2023-12-29T14:30:27 IST" duration-ms="70854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="logoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC010_LogOut@1b7c473a]" started-at="2023-12-29T14:30:27 IST" name="logoutTest" data-provider="getData" finished-at="2023-12-29T14:30:57 IST" duration-ms="30615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saranya3606@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guvi@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Saranya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You have been successfully logged out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC010_LogOut@1b7c473a]" started-at="2023-12-29T14:30:57 IST" name="closeBrowser" finished-at="2023-12-29T14:31:39 IST" duration-ms="41066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC010_LogOut -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
